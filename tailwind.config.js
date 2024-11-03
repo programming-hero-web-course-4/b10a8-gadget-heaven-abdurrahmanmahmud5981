@@ -6,7 +6,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#9538E2",
+        secondary: "#F6F6F6",
+      },
+      fontFamily: {
+        sora: ["Sora", "sans-serif"],
+      },
+    },
   },
   plugins: [daisyui],
 }
