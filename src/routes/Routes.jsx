@@ -1,9 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
+import MainLayout from "../layouts/MainLayout";
 
 const routes = createBrowserRouter([
     {
         path: "/",
-        element: <h1>Helloo</h1>
+        element: <MainLayout/>,
+        children: [
+            // Add your routes here
+        ]
     }
 ])
 
