@@ -1,0 +1,161 @@
+[
+  {
+    "product_id": "1",
+    "product_title": "Laptop 1",
+    "product_image": "laptop1.jpg",
+    "category": "Laptops",
+    "price": 1000,
+    "description": "This is a great laptop for everyday use.",
+    "specification": [
+      "15.6-inch display",
+      "Intel Core i5",
+      "8GB RAM",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "2",
+    "product_title": "Laptop 2",
+    "product_image": "laptop2.jpg",
+    "category": "Laptops",
+    "price": 1200,
+    "description": "A powerful laptop for professional work.",
+    "specification": [
+      "17.3-inch display",
+      "Intel Core i7",
+      "16GB RAM",
+      "2TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "3",
+    "product_title": "Laptop 3",
+    "product_image": "laptop3.jpg",
+    "category": "Laptops",
+    "price": 900,
+    "description": "A budget-friendly laptop for everyday tasks.",
+    "specification": [
+      "14-inch display",
+      "Intel Core i3",
+      "4GB RAM",
+      "500GB HDD"
+    ],
+    "availability": false,
+    "rating": 4.2
+  },
+  {
+    "product_id": "4",
+    "product_title": "Phone 1",
+    "product_image": "phone1.jpg",
+    "category": "Phones",
+    "price": 500,
+    "description": "A high-quality smartphone with a great camera.",
+    "specification": [
+      "6.5-inch display",
+      "Snapdragon 855",
+      "6GB RAM",
+      "128GB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "5",
+    "product_title": "Phone 2",
+    "product_image": "phone2.jpg",
+    "category": "Phones",
+    "price": 400,
+    "description": "A budget-friendly smartphone with a good camera.",
+    "specification": [
+      "5.5-inch display",
+      "MediaTek Helio P23",
+      "4GB RAM",
+      "64GB storage"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "6",
+    "product_title": "Accessory 1",
+    "product_image": "accessory1.jpg",
+    "category": "Accessories",
+    "price": 20,
+    "description": "A stylish headphone with noise cancellation.",
+    "specification": [
+      "Bluetooth",
+      "Noise cancellation",
+      "30-hour battery life"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "7",
+    "product_title": "Smart Watch 1",
+    "product_image": "smartwatch1.jpg",
+    "category": "Smart Watches",
+    "price": 250,
+    "description": "A smartwatch with a high-resolution display.",
+    "specification": [
+      "4.3-inch display",
+      "GPS",
+      "Heart rate monitor",
+      "Bluetooth"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "8",
+    "product_title": "MacBook Pro",
+    "product_image": "macbookpro.jpg",
+    "category": "Laptops",
+    "price": 2500,
+    "description": "A powerful laptop for professional work.",
+    "specification": [
+      "16-inch display",
+      "Intel Core i9",
+      "16GB RAM",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "9",
+    "product_title": "iPhone 12",
+    "product_image": "iphone12.jpg",
+    "category": "Phones",
+    "price": 999,
+    "description": "The latest iPhone with a 5G connection.",
+    "specification": [
+      "6.1-inch display",
+      "A14 Bionic",
+      "6GB RAM",
+      "128GB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "10",
+    "product_title": "Smart Watch 2",
+    "product_image": "smartwatch2.jpg",
+    "category": "Smart Watches",
+    "price": 300,
+    "description": "A smartwatch with a water-resistant design.",
+    "specification": [
+      "4.5-inch display",
+      "GPS",
+      "Heart rate monitor",
+      "Bluetooth"
+    ],
+    "availability": false,
+    "rating": 4.2
+  }
+]
