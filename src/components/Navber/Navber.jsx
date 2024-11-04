@@ -2,8 +2,8 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navber = () => {
   return (
-    <div className="navbar bg-primary  gap-3 max-w-screen-2xl mx-auto">
-      <div className="navbar-start gap-3">
+    <div className="navbar gap-3 max-w-screen-xl mx-auto">
+      <div className="navbar-start gap-3 w-full sm:w-1/2">
         <div className="dropdown ">
           <div tabIndex={0} role="button" className="btn btn-gho min-h-full min-w-full w-10 h-10 p-0 lg:hidden">
             <svg
@@ -53,7 +53,7 @@ const Navber = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end ">
         <Link to="" className="">
           <div role="button" className="btn bg-white text-black btn-ghost btn-circle hover:bg-secondary/80 transition-all duration-100">
             <div className="indicator">
