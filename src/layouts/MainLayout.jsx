@@ -1,11 +1,12 @@
-import {  Outlet, useLocation } from "react-router-dom";
+import {  Outlet, useLocation, useParams } from "react-router-dom";
 import Navber from "../components/Navber/Navber";
 import Footer from "../components/Footer/Footer";
 
 
 const MainLayout = () => {
   const location = useLocation();
-  console.log(location.pathname === "/");
+  const params = useParams()
+
   return (
     <>
       <div className="">
@@ -20,8 +21,13 @@ const MainLayout = () => {
             <Navber />
           </div>
         )}
+        {Object.prototype.hasOwnProperty.call(params, "details") && (
+          <div className="w-11/12 mx-auto">
+            <Navber />
+          </div>
+        )}
         {/* Dynamic content */}
-        <main className="min-h-[calc(100vh-230px)] md:mb-96">
+        <main className="min-h-[calc(100vh-230px)] md:mb-14">
           <Outlet />
         </main>
         {/* Footer */}

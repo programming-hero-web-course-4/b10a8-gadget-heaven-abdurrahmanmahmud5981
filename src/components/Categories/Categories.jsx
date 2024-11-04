@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Categories = () => {
   const categories = useContext(DataContext);
-  console.log(categories);
+
   return (
     <div className="flex xl:flex-col gap-3 flex-wrap   l   justify-between sm:justify-center bg-white py-4 px-4 border rounded-2xl">
       <NavLink

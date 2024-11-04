@@ -11,7 +11,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <footer className=" sm:flex justify-around text-center footer  p-10 max-w-screen-2xl mx-auto">
+        <footer className=" flex flex-col sm:flex-row justify-around text-center   p-10 max-w-screen-2xl mx-auto gap-8">
           <nav className="flex flex-col items-center text-gray-600">
             <h6 className="footer-title text-black opacity-100">Services</h6>
             <a className=" link link-hover">Branding</a>

@@ -13,7 +13,7 @@ const Gadgets = () => {
           <div className="col-span-full xl:col-span-2 ">
             <Categories/>
           </div>
-          <div className="border col-span-full xl:col-span-10 ">
+          <div className=" col-span-full xl:col-span-10  ">
             <Outlet/>
           </div>
         </div>

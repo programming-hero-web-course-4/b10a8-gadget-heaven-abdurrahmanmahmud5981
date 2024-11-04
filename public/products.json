@@ -1,8 +1,8 @@
 [
   {
     "product_id": "1",
-    "product_title": "Laptop 1",
-    "product_image": "laptop1.jpg",
+    "product_title": "MacBook Pro M2",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGm7u7AWrE5JDQR1XjZUvC_RTZ31ofqUbtiQ&s",
     "category": "Laptops",
     "price": 1000,
     "description": "This is a great laptop for everyday use.",
@@ -17,8 +17,8 @@
   },
   {
     "product_id": "2",
-    "product_title": "Laptop 2",
-    "product_image": "laptop2.jpg",
+    "product_title": "MacBook Pro M2",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGm7u7AWrE5JDQR1XjZUvC_RTZ31ofqUbtiQ&s",
     "category": "Laptops",
     "price": 1200,
     "description": "A powerful laptop for professional work.",
@@ -33,8 +33,8 @@
   },
   {
     "product_id": "3",
-    "product_title": "Laptop 3",
-    "product_image": "laptop3.jpg",
+    "product_title": "MacBook Pro",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGm7u7AWrE5JDQR1XjZUvC_RTZ31ofqUbtiQ&s",
     "category": "Laptops",
     "price": 900,
     "description": "A budget-friendly laptop for everyday tasks.",
@@ -49,8 +49,8 @@
   },
   {
     "product_id": "4",
-    "product_title": "Phone 1",
-    "product_image": "phone1.jpg",
+    "product_title": "iPhone",
+    "product_image": "https://images.pexels.com/photos/13367286/pexels-photo-13367286.jpeg?auto=compress&cs=tinysrgb&h=191.25&fit=crop&w=213.75&dpr=1",
     "category": "Phones",
     "price": 500,
     "description": "A high-quality smartphone with a great camera.",
@@ -65,8 +65,8 @@
   },
   {
     "product_id": "5",
-    "product_title": "Phone 2",
-    "product_image": "phone2.jpg",
+    "product_title": "iPhone",
+    "product_image": "https://images.pexels.com/photos/20765271/pexels-photo-20765271/free-photo-of-man-hand-holding-iphone.jpeg?auto=compress&cs=tinysrgb&w=400",
     "category": "Phones",
     "price": 400,
     "description": "A budget-friendly smartphone with a good camera.",
@@ -81,10 +81,10 @@
   },
   {
     "product_id": "6",
-    "product_title": "Accessory 1",
-    "product_image": "accessory1.jpg",
+    "product_title": "Black Headset",
+    "product_image": "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=400",
     "category": "Accessories",
-    "price": 20,
+    "price": 90,
     "description": "A stylish headphone with noise cancellation.",
     "specification": [
       "Bluetooth",
@@ -96,9 +96,9 @@
   },
   {
     "product_id": "7",
-    "product_title": "Smart Watch 1",
-    "product_image": "smartwatch1.jpg",
-    "category": "Smart Watches",
+    "product_title": "Black Smart Watch ",
+    "product_image": "https://images.pexels.com/photos/5081914/pexels-photo-5081914.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Smart_Watches",
     "price": 250,
     "description": "A smartwatch with a high-resolution display.",
     "specification": [
@@ -113,7 +113,7 @@
   {
     "product_id": "8",
     "product_title": "MacBook Pro",
-    "product_image": "macbookpro.jpg",
+    "product_image": "https://images.pexels.com/photos/249538/pexels-photo-249538.jpeg?auto=compress&cs=tinysrgb&w=400",
     "category": "Laptops",
     "price": 2500,
     "description": "A powerful laptop for professional work.",
@@ -129,7 +129,7 @@
   {
     "product_id": "9",
     "product_title": "iPhone 12",
-    "product_image": "iphone12.jpg",
+    "product_image": "https://images.pexels.com/photos/12794497/pexels-photo-12794497.jpeg?auto=compress&cs=tinysrgb&w=400",
     "category": "Phones",
     "price": 999,
     "description": "The latest iPhone with a 5G connection.",
@@ -144,9 +144,9 @@
   },
   {
     "product_id": "10",
-    "product_title": "Smart Watch 2",
-    "product_image": "smartwatch2.jpg",
-    "category": "Smart Watches",
+    "product_title": "Apple Watch",
+    "product_image": "https://images.unsplash.com/photo-1517420879524-86d64ac2f339?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8U21hcnQlMjBXYXRjaHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Smart_Watches",
     "price": 300,
     "description": "A smartwatch with a water-resistant design.",
     "specification": [

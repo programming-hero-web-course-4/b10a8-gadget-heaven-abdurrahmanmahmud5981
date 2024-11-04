@@ -3,6 +3,8 @@ import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import Statistics from "../pages/Statistics";
 import Dashboard from "../pages/Dashboard";
+import GadgetCard from "../components/GadgetsCard/GadgetCard";
+import CardDetails from "../pages/CardDetails";
 
 const routes = createBrowserRouter([
     {
@@ -16,28 +18,39 @@ const routes = createBrowserRouter([
                 loader: ()=> fetch("/categories.json"),
                 children:[
                     {
-                        path:"/laptops",
-                        element:<h1>Laptops</h1>
+                        path: "/",
+                        element:<GadgetCard/>,
+                        loader: ()=> fetch("/products.json")
                     },
                     {
-                        path:"/phones",
-                        element:<h1>phones</h1>
+                        path:"/:category",
+                        element:<GadgetCard/>,
+                        loader: ()=> fetch("/products.json")
                     },
                     {
-                        path:"/accessories",
-                        element:<h1>accessories</h1>
+                        path:"/:category",
+                        element:<GadgetCard/>,
+                        loader: ()=> fetch("/products.json")
                     },
                     {
-                        path: "/smart_Watches",
-                        element:<h1>smartWatches</h1>
+                        path:"/:category",
+                        element:<GadgetCard/>,
+                        loader: ()=> fetch("/products.json")
                     },
                     {
-                        path: "/macBook",
-                        element:<h1>macBook</h1>
+                        path: "/:smart_Watches",
+                        element:<GadgetCard/>,
+                        loader: ()=> fetch("/products.json")
                     },
                     {
-                        path: "/iphone",
-                        element:<h1>iphone</h1>
+                        path: "/:category",
+                        element:<GadgetCard/>,
+                        loader: ()=> fetch("/products.json")
+                    },
+                    {
+                        path: "/:category",
+                        element:<GadgetCard/>,
+                        loader: ()=> fetch("/products.json")
                     }
                 ]
             },
@@ -48,6 +61,11 @@ const routes = createBrowserRouter([
             {
                 path: "/dashboard",
                 element:<Dashboard/>
+            },
+            {
+                path: "/product/:details",
+                element:<CardDetails/>,
+                loader: ()=> fetch("/products.json")
             }
 
         ]
