@@ -37,7 +37,6 @@ const CardDetails = () => {
   };
   const handleAddToWishlist = (product) => {
     addToWishList(product)
-    // console.log(product);
     setIsFavorite(true);
   }
   return (

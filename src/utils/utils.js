@@ -20,8 +20,8 @@ const addToCart = product => {
 const addToWishList = product => {
   console.log(product);
   const wishlists = getAllWishLists();
-  const isE = wishlists.find(item=> item.product_id === product.product_id)
-  if(isE) return ;
+  const isE = wishlists.find(item => item.product_id === product.product_id)
+  if (isE) return;
   wishlists.push(product)
   localStorage.setItem('wishlists', JSON.stringify(wishlists))
   toast.success(`${product.product_title} added to Wish List`);
@@ -38,13 +38,20 @@ const removeFromCart = product_id => {
 
 const removeFromWishLists = product_id => {
   const wishlists = getAllWishLists();
-  const remaining = wishlists.filter(item => item.product_idr !== product_id);
+  const remaining = wishlists.filter(item => item.product_id !== product_id);
 
-  localStorage.setItem('carts', JSON.stringify(remaining))
+  localStorage.setItem('wishlists', JSON.stringify(remaining))
   toast.success("Product Successfully Removed From Wish List");
+}
+
+// empty localStorage
+const emptyCart = () => {
+  localStorage.removeItem('carts');
 }
 
 
 
 
-export { addToCart, getAllCarts, removeFromCart, addToWishList, removeFromWishLists, getAllWishLists };
+
+
+export { addToCart, getAllCarts, removeFromCart, addToWishList, removeFromWishLists, getAllWishLists, emptyCart };
