@@ -5,15 +5,17 @@ import Statistics from "../pages/Statistics";
 import Dashboard from "../pages/Dashboard";
 import GadgetCard from "../components/GadgetsCard/GadgetCard";
 import CardDetails from "../pages/CardDetails";
+import ErrorPage from "../pages/ErrorPage";
 
 const routes = createBrowserRouter([
     {
         path: "/",
+        errorElement:<ErrorPage/>,
         element: <MainLayout/>,
         children: [
             // Add your routes here
             {
-                path: "",
+                path: "/",
                 element:<Home/>,
                 loader: ()=> fetch("/categories.json"),
                 children:[
@@ -23,32 +25,32 @@ const routes = createBrowserRouter([
                         loader: ()=> fetch("/products.json")
                     },
                     {
-                        path:"/:category",
+                        path:"/category/:category",
                         element:<GadgetCard/>,
                         loader: ()=> fetch("/products.json")
                     },
                     {
-                        path:"/:category",
+                        path:"/category/:category",
                         element:<GadgetCard/>,
                         loader: ()=> fetch("/products.json")
                     },
                     {
-                        path:"/:category",
+                        path:"/category/:category",
                         element:<GadgetCard/>,
                         loader: ()=> fetch("/products.json")
                     },
                     {
-                        path: "/:smart_Watches",
+                        path: "/category/:category",
                         element:<GadgetCard/>,
                         loader: ()=> fetch("/products.json")
                     },
                     {
-                        path: "/:category",
+                        path: "/category/:category",
                         element:<GadgetCard/>,
                         loader: ()=> fetch("/products.json")
                     },
                     {
-                        path: "/:category",
+                        path: "/category/:category",
                         element:<GadgetCard/>,
                         loader: ()=> fetch("/products.json")
                     }
@@ -69,7 +71,8 @@ const routes = createBrowserRouter([
             }
 
         ]
-    }
+    },
+    
 ])
 
 export default routes;

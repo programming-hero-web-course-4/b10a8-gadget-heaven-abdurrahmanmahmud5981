@@ -22,7 +22,7 @@ const Categories = () => {
       <div className="flex xl:flex-col gap-3 flex-wrap sm:justify-center">
         {categories.map((category) => (
           <NavLink
-            to={`/${category.name.toLowerCase()}`}
+            to={`/category/${category.name.toLowerCase()}`}
             key={category.id}
             className={({ isActive }) => {
               return `btn xl:w-full rounded-full block text-start px-5 py-4  ${

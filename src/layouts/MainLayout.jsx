@@ -1,7 +1,7 @@
 import {  Outlet, useLocation, useParams } from "react-router-dom";
 import Navber from "../components/Navber/Navber";
 import Footer from "../components/Footer/Footer";
-
+import { Toaster } from 'react-hot-toast';
 
 const MainLayout = () => {
   const location = useLocation();
@@ -32,10 +32,11 @@ const MainLayout = () => {
         </main>
         {/* Footer */}
         <div className={`${Object.prototype.hasOwnProperty.call(params, "details") && "lg:mt-[50vh]"}`}>
-
+        
         <Footer />
         </div>
       </div>
+      <Toaster/>
     </>
   );
 };

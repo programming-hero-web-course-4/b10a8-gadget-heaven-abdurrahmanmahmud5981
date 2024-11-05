@@ -2,14 +2,17 @@ import { useEffect } from "react"
 import { useState } from "react"
 import SingleCard from "./SingleCard"
 import { useLoaderData,  useParams } from "react-router-dom"
+import NotFound from "../NotFound/NotFound"
 
 
 const GadgetCard = () => {
   const data = useLoaderData()
   
   const {category} = useParams()
+  const cate = useParams()
     const [gadgets,setGadgets] = useState([])
    console.log(category);
+   console.log(cate);
   // pathname
     // console.log(pathname);
     // Fetch data from API
@@ -31,7 +34,7 @@ const GadgetCard = () => {
        
        gadgets.length >0 ? gadgets.map((product) => (
         <SingleCard key={product.product_id} product={product} />
-      )):"<p>heloooo</p>"
+      )):<NotFound/>
     
     } 
     </div>
