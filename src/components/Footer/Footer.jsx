@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="bg-white text-black">
-        <div className=" py-8 text-center space-y-2 border-b-2 max-w-screen-2xl mx-auto">
+        <div className=" py-16 text-center space-y-2 border-b-2 max-w-screen-2xl mx-auto">
           <h2 className="text-3xl font-bold ">Gadget Heaven</h2>
           <p className="text-gray-500">
             Leading the way in cutting-edge technology and innovation.
