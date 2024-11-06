@@ -3,8 +3,8 @@ import errorImg from "../assets/404 Error with a cute animal-bro.png";
 const ErrorPage = () => {
   const navigate = useNavigate();
   return (
-    <div className="  mockup-window  border m-20">
-        <div className="!bg-primary/10 flex justify-center px-4 py-16">
+    <div className="  mockup-window bg-purple-600 border m-20">
+        <div className="bg-purple-100 flex justify-center px-4 py-16">
       <div className="  boxShadow px-10 w-full lg:flex-row gap-[30px] lg:gap-0 flex-col flex items-center justify-evenly py-20 rounded-xl">
         <div className="w-[80%] lg:w-[40%]">
           <img src={errorImg} alt="illustration" className="w-full" />
