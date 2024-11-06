@@ -1,8 +1,14 @@
+import { Helmet } from "react-helmet";
 import SubHeading from "../components/SubHeading/SubHeading";
 
 const FeaturedItem = () => {
   return (
     <div>
+         <Helmet>
+                <meta charSet="utf-8" />
+                <title>Featured Product | Gadget Heaven</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
       <div className=" text-white  bg-primary  py-14">
         <SubHeading
           title="Our Featured Products"

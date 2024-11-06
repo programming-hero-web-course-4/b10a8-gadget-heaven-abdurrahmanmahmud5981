@@ -1,9 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import errorImg from "../assets/404 Error with a cute animal-bro.png";
+import { Helmet } from "react-helmet";
 const ErrorPage = () => {
   const navigate = useNavigate();
   return (
     <div className="  mockup-window bg-purple-600 border m-20">
+      <Helmet>
+        <title>Error Page | Gadget Heaven</title>
+      </Helmet>
         <div className="bg-purple-100 flex justify-center px-4 py-16">
       <div className="  boxShadow px-10 w-full lg:flex-row gap-[30px] lg:gap-0 flex-col flex items-center justify-evenly py-20 rounded-xl">
         <div className="w-[80%] lg:w-[40%]">
