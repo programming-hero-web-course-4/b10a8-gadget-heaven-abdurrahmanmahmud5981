@@ -4,11 +4,11 @@ An e-commerce platform for the latest gadgets, created with a responsive design 
 
 ## Live Website
 
-[Visit GadgetHeaven](#) <!-- Insert live link here -->
+[Visit GadgetHeaven](https://gadget_heaven.surge.sh/) <!-- Insert live link here -->
 
 ## Project Requirements Document
 
-[View Project Details](https://github.com/edust-org/edust/pull/65) <!-- Insert PDF link if available online -->
+[View Project Requirement Doc](https://requirementdoc.tiiny.site/) <!-- Insert PDF link if available online -->
 
 ## React Fundamentals Used
 
@@ -20,7 +20,6 @@ An e-commerce platform for the latest gadgets, created with a responsive design 
 
 ## Data Management
 
-- **Context API**: To manage global states for cart and wishlist.
 - **LocalStorage**: Persisted cart and wishlist data across sessions.
 
 ## Key Features
@@ -45,8 +44,3 @@ An e-commerce platform for the latest gadgets, created with a responsive design 
    - Comprehensive 404 error page.
    - Confirmation modals and alerts using React-Toastify, providing a seamless experience.
 
-## Installation
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/gadgetheaven.git
