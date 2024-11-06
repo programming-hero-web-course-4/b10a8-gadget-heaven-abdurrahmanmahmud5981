@@ -2,8 +2,8 @@
   {
     "product_id": "1",
     "product_title": "MacBook Pro M2",
-    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGm7u7AWrE5JDQR1XjZUvC_RTZ31ofqUbtiQ&s",
-    "category": "Laptops",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H511ad857513d4cfba037fb9cbebd83e8y.jpg_720x720q50.jpg",
+    "category": "macbook",
     "price": 1000,
     "description": "This is a great laptop for everyday use.",
     "specification": [
@@ -19,8 +19,8 @@
   {
     "product_id": "2",
     "product_title": "MacBook Pro M2",
-    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGm7u7AWrE5JDQR1XjZUvC_RTZ31ofqUbtiQ&s",
-    "category": "Laptops",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H4ff09ce6cc9d4f4586b5750b11350a5bh.jpg_720x720q50.jpg",
+    "category": "macbook",
     "price": 1200,
     "description": "A powerful laptop for professional work.",
     "specification": [
@@ -36,7 +36,7 @@
   {
     "product_id": "3",
     "product_title": "MacBook Pro",
-    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGm7u7AWrE5JDQR1XjZUvC_RTZ31ofqUbtiQ&s",
+    "product_image": "https://s.alicdn.com/@sc04/kf/U1c993929ccb14c6fb1a06a088eaef315F.jpeg_720x720q50.jpg",
     "category": "Laptops",
     "price": 900,
     "description": "A budget-friendly laptop for everyday tasks.",
@@ -52,9 +52,9 @@
   },
   {
     "product_id": "4",
-    "product_title": "iPhone",
-    "product_image": "https://images.pexels.com/photos/13367286/pexels-photo-13367286.jpeg?auto=compress&cs=tinysrgb&h=191.25&fit=crop&w=213.75&dpr=1",
-    "category": "Phones",
+    "product_title": "iPhone 15 Pro Max ",
+    "product_image": "https://s.alicdn.com/@sc04/kf/Ha1acbbfe858b486ca85c0675285b91bbL.jpg_720x720q50.jpg",
+    "category": "iPhone",
     "price": 500,
     "description": "A high-quality smartphone with a great camera.",
     "specification": [
@@ -69,9 +69,9 @@
   },
   {
     "product_id": "5",
-    "product_title": "iPhone",
-    "product_image": "https://images.pexels.com/photos/20765271/pexels-photo-20765271/free-photo-of-man-hand-holding-iphone.jpeg?auto=compress&cs=tinysrgb&w=400",
-    "category": "Phones",
+    "product_title": "I Phone 13 Pro Max",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H458ea4296c374110adfe1301883991838.jpg_720x720q50.jpg",
+    "category": "iPhone",
     "price": 400,
     "description": "A budget-friendly smartphone with a good camera.",
     "specification": [
@@ -257,7 +257,7 @@
   {
     "product_id": "16",
     "product_title": "Lenovo ThinkPad",
-    "product_image": "https://sc04.alicdn.com/kf/Hba8bfb9c18414d739e8b38c1f2f22cddC.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/He3498bfcb9934ef9aa4379ec749d6623V.jpg_720x720q50.jpg",
     "category": "Laptops",
     "price": 1100,
     "description": "A laptop built for productivity and durability.",
@@ -274,7 +274,7 @@
   {
     "product_id": "17",
     "product_title": "ASUS ZenBook",
-    "product_image": "https://sc04.alicdn.com/kf/H9d4048b6a0fa4b27ae12f0ff3be44a93c.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/Heb259190737b4ce68d836bd4bae742e4d.jpg_720x720q50.jpg",
     "category": "Laptops",
     "price": 1250,
     "description": "Lightweight and powerful laptop.",
@@ -291,7 +291,7 @@
   {
     "product_id": "18",
     "product_title": "Dell Inspiron",
-    "product_image": "https://sc04.alicdn.com/kf/H87ef2333ff36402b91b134afc1e7e32eY.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/Hf3bd62b39eca47cba1974c806cb137b9W.png_720x720q50.jpg",
     "category": "Laptops",
     "price": 700,
     "description": "Affordable laptop for everyday tasks.",
@@ -308,7 +308,7 @@
   {
     "product_id": "19",
     "product_title": "Huawei MateBook",
-    "product_image": "https://sc04.alicdn.com/kf/Hc8f8d0e053f44436a8f8e41b96b5e3f4A.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/Hdfd5c868ead04a509f6e2f940ddfae329.jpg_720x720q50.jpg",
     "category": "Laptops",
     "price": 950,
     "description": "Sleek laptop with excellent performance.",
@@ -325,7 +325,7 @@
   {
     "product_id": "20",
     "product_title": "Sony Xperia 1",
-    "product_image": "https://sc04.alicdn.com/kf/H8df7cb5b353f43a89a3d2f632307beedx.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/Ha28632140a5a42e7a361a2fa6d0b49d0R.png_720x720q50.jpg",
     "category": "Phones",
     "price": 950,
     "description": "Smartphone with 4K display and great camera.",
@@ -342,7 +342,7 @@
   {
     "product_id": "21",
     "product_title": "OnePlus 8T",
-    "product_image": "https://sc04.alicdn.com/kf/H354c93fa12a84e80bcd4bfc7a3c9c4f1T.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H2ccbc35aa5ea486ebe1944691d2bd88dA.jpg_720x720q50.jpg",
     "category": "Phones",
     "price": 750,
     "description": "High-speed 5G smartphone.",
@@ -359,7 +359,7 @@
   {
     "product_id": "22",
     "product_title": "Samsung Galaxy Buds",
-    "product_image": "https://sc04.alicdn.com/kf/Hbcd4309b2f134c01af1067a145248030Z.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H1041ab3884164e2883753edc8582e5a7i.png_720x720q50.jpg",
     "category": "Accessories",
     "price": 120,
     "description": "Wireless earbuds with great sound quality.",
@@ -371,7 +371,7 @@
   {
     "product_id": "23",
     "product_title": "JBL Flip 5",
-    "product_image": "https://sc04.alicdn.com/kf/Hb7d6e80d6fae4010b2e8b48282fe60d3v.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H156d71f2b6b94c97a79c3e6e80beb392u.jpg_720x720q50.jpg",
     "category": "Accessories",
     "price": 100,
     "description": "Portable Bluetooth speaker.",
@@ -383,7 +383,7 @@
   {
     "product_id": "24",
     "product_title": "Beats Solo3",
-    "product_image": "https://sc04.alicdn.com/kf/Hf3a8e095632f4f2eaddfa2cbbc2f4d60b.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/Had63449c686f4a7285b71ffd52644201S.jpg_720x720q50.jpg",
     "category": "Accessories",
     "price": 180,
     "description": "On-ear headphones with excellent sound.",
@@ -399,7 +399,7 @@
   {
     "product_id": "25",
     "product_title": "Fitbit Versa 3",
-    "product_image": "https://sc04.alicdn.com/kf/Habc5d3ad1e8e406bb81321290aaf8e05i.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H1dc69b7d00cc450cb2fa17ae5de3e269c.jpg_720x720q50.jpg",
     "category": "Smart_Watches",
     "price": 200,
     "description": "Smartwatch with health tracking features.",
@@ -416,7 +416,7 @@
   {
     "product_id": "26",
     "product_title": "Huawei Watch GT 2",
-    "product_image": "https://sc04.alicdn.com/kf/Hb73272a6463f44d382f02c0ae0b33369k.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H0f1ff613376b4af48c3f2fbec4a5f26fA.jpg_720x720q50.jpg",
     "category": "Smart_Watches",
     "price": 230,
     "description": "Elegant smartwatch with long battery life.",
@@ -433,7 +433,7 @@
   {
     "product_id": "27",
     "product_title": "Garmin Forerunner 245",
-    "product_image": "https://sc04.alicdn.com/kf/H555129e5de4b4bb0931593459aeed7f2f.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H9efd8dc6bd28462d8c6a3a07be27a616Y.jpg_720x720q50.jpg",
     "category": "Smart_Watches",
     "price": 250,
     "description": "GPS smartwatch for runners.",
@@ -450,7 +450,7 @@
   {
     "product_id": "28",
     "product_title": "TicWatch Pro 3",
-    "product_image": "https://sc04.alicdn.com/kf/Hb5c63a3f4b2c43ddace961a7304b73f4k.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/Hadd00471d89b4db3b9e984e8d9c6cefeo.jpg_720x720q50.jpg",
     "category": "Smart_Watches",
     "price": 300,
     "description": "Smartwatch with dual-layer display.",
@@ -467,7 +467,7 @@
   {
     "product_id": "29",
     "product_title": "Oppo Watch",
-    "product_image": "https://sc04.alicdn.com/kf/H1b52b40b60df43229b01d5e90d6fc7cc7.jpg",
+    "product_image": "https://s.alicdn.com/@sc04/kf/He1d45eacd3054b32970d6c76c843b4b4D.jpg_720x720q50.jpg",
     "category": "Smart_Watches",
     "price": 280,
     "description": "Smartwatch with sleek design and fast performance.",
