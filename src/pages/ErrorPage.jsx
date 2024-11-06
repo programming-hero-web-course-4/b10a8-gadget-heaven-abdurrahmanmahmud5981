@@ -1,13 +1,35 @@
-import { useNavigate } from "react-router-dom"
-
+import { useNavigate } from "react-router-dom";
+import errorImg from "../assets/404 Error with a cute animal-bro.png";
 const ErrorPage = () => {
-  const navigate =useNavigate()
+  const navigate = useNavigate();
   return (
-    <div className="flex flex-col gap-8 items-center justify-center h-screen ">
-        <h2 className="text-4xl font-bold">404-Page Not Found!</h2>
-        <button onClick={()=>navigate("/")} className="btn btn-primary">Go to Home</button>
-    </div>
-  )
-}
+    <div className="  mockup-window  border m-20">
+        <div className="!bg-primary/10 flex justify-center px-4 py-16">
+      <div className="  boxShadow px-10 w-full lg:flex-row gap-[30px] lg:gap-0 flex-col flex items-center justify-evenly py-20 rounded-xl">
+        <div className="w-[80%] lg:w-[40%]">
+          <img src={errorImg} alt="illustration" className="w-full" />
+        </div>
 
-export default ErrorPage
+        <div className="w-full lg:w-[30%] text-center lg:text-start">
+          <h1 className="text-[2.5rem] sm:text-[4rem] font-[800] text-primary leading-[80px]">
+            OOPS!
+          </h1>
+
+          <h3 className="text-primary/80 text-[0.9rem] sm:text-[1.2rem]">
+            Looks like big foot has broken the link
+          </h3>
+
+          <button
+            onClick={() => navigate("/")}
+            className="py-3 px-6 sm:px-8 text-[0.9rem] sm:text-[1rem] rounded-full bg-primary text-white mt-8"
+          >
+            Back to homepage
+          </button>
+        </div>
+      </div>
+      </div>
+    </div>
+  );
+};
+
+export default ErrorPage;
