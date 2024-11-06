@@ -7,14 +7,14 @@ const SingleCard = ({ product }) => {
   return (
     <div>
       <div className="card bg-base-100 w-full h-full shadow-xl ">
-        <figure className=" h-48 sm:h-80 sm:p-8  w-full ">
+        <figure className=" h-64 p-4 sm:h-80 sm:p-8  w-full ">
           <img
             src={product_image}
             alt={product_title}
-            className="w-full object-cover h-full  sm:rounded-3xl "
+            className="w-full object-cover h-full rounded-md  sm:rounded-3xl "
           />
         </figure>
-        <div className="card-body pt-0">
+        <div className="card-body sm:pt-0">
           <h2 className="card-title">{product_title}!</h2>
           <p className="text-left text-gray-600 font-medium">Price: ${price}</p>
           <div className="card-actions ">

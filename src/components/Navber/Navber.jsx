@@ -18,7 +18,7 @@ const Navber = () => {
       
         <NavLink to="/" className=" flex items-center gap-2">
         <img src={logo} alt="Gadget Heaven" className=" object-cover w-8 h-8 hidden sm:block" />
-          <span className=" text-lg whitespace-nowrap sm:text-2xl font-bold">Gadget Heaven</span>
+          <span className=" text-lg  sm:text-2xl font-bold">Gadget Heaven</span>
         </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex ">
