@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { getAllCarts, getAllWishLists } from "../../utils/utils";
 import { useEffect, useState } from "react";
-import logo from "../../assets/favicon-16x16.png"
+import logo from "../../assets/favicon-16x16.png";
 
 const Navber = () => {
   const [showCartsNumbers, setShowCartsNumbers] = useState();
@@ -15,22 +15,54 @@ const Navber = () => {
   return (
     <div className="navbar gap-3 max-w-screen-xl mx-auto">
       <div className="navbar-start gap-3 w-full sm:w-1/2">
-      
         <NavLink to="/" className=" flex items-center gap-2">
-        <img src={logo} alt="Gadget Heaven" className=" object-cover w-8 h-8 hidden sm:block" />
+          <img
+            src={logo}
+            alt="Gadget Heaven"
+            className=" object-cover w-8 h-8 hidden sm:block"
+          />
           <span className=" text-lg  sm:text-2xl font-bold">Gadget Heaven</span>
         </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex ">
         <ul className="menu menu-horizontal px-1 gap-3">
           <li>
-            <NavLink className={({isActive})=>isActive&&" bg-slate-700 "} to="/">Home</NavLink>
+            <NavLink
+              className={({ isActive }) => isActive && " bg-slate-700 "}
+              to="/"
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink className={({isActive})=>isActive&&"bg-slate-700 hover:text-slate-700 text-white "}  to="/statistics">Statistics</NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive && "bg-slate-700 hover:text-slate-700 text-white "
+              }
+              to="/statistics"
+            >
+              Statistics
+            </NavLink>
           </li>
           <li>
-            <NavLink className={({isActive})=>isActive&&"bg-slate-700 hover:text-slate-700 text-white "}  to="/dashboard">Dashboard</NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive && "bg-slate-700 hover:text-slate-700 text-white "
+              }
+              to="/dashboard"
+            >
+              Dashboard
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className={({ isActive }) =>
+                isActive && "bg-slate-700 hover:text-slate-700 text-white "
+              }
+              to="/featuredItem"
+            >
+              Featured Product
+            </NavLink>
           </li>
         </ul>
       </div>
@@ -113,13 +145,29 @@ const Navber = () => {
             className=" text-black menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink className={({ isActive }) =>
+                  isActive && "bg-slate-700 hover:text-slate-700 text-white "
+                } to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/statistics">Statistics</NavLink>
+              <NavLink className={({ isActive }) =>
+                  isActive && "bg-slate-700 hover:text-slate-700 text-white "
+                } to="/statistics">Statistics</NavLink>
             </li>
             <li>
-              <NavLink to="/dashboard">Dashboard</NavLink>
+              <NavLink className={({ isActive }) =>
+                  isActive && "bg-slate-700 hover:text-slate-700 text-white "
+                } to="/dashboard">Dashboard</NavLink>
+            </li>
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive && "bg-slate-700 hover:text-slate-700 text-white "
+                }
+                to="/featuredItem"
+              >
+                Featured Product
+              </NavLink>
             </li>
           </ul>
         </div>

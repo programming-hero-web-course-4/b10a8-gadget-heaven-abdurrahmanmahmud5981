@@ -26,6 +26,11 @@ const MainLayout = () => {
             <Navber />
           </div>
         )}
+        {location.pathname === "/featuredItem" && (
+          <div className="w-11/12 mx-auto">
+            <Navber />
+          </div>
+        )}
         {/* Dynamic content */}
         <main className="min-h-[calc(100vh-230px)] md:mb-14">
           <Outlet />

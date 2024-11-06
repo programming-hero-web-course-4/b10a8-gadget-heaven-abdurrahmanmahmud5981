@@ -6,6 +6,7 @@ import Dashboard from "../pages/Dashboard";
 import GadgetCard from "../components/GadgetsCard/GadgetCard";
 import CardDetails from "../pages/CardDetails";
 import ErrorPage from "../pages/ErrorPage";
+import FeaturedItem from "../pages/FeaturedItem";
 
 const routes = createBrowserRouter([
     {
@@ -68,6 +69,10 @@ const routes = createBrowserRouter([
                 path: "/product/:details",
                 element:<CardDetails/>,
                 loader: ()=> fetch("/products.json")
+            },
+            {
+                path: "/featuredItem",
+                element:<FeaturedItem/>
             }
 
         ]
