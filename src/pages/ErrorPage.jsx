@@ -6,7 +6,7 @@ const ErrorPage = () => {
   return (
     <div className="  mockup-window bg-purple-600 border m-20">
       <Helmet>
-        <title>Error Page | Gadget Heaven</title>
+        <title>404 | Gadget Heaven</title>
       </Helmet>
         <div className="bg-purple-100 flex justify-center px-4 py-16">
       <div className="  boxShadow px-10 w-full lg:flex-row gap-[30px] lg:gap-0 flex-col flex items-center justify-evenly py-20 rounded-xl">
