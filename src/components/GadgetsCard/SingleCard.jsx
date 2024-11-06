@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const SingleCard = ({ product }) => {
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ const SingleCard = ({ product }) => {
           <div className="card-actions ">
             <button
               className="btn border-primary text-primary rounded-full"
-              onClick={() => navigate(`/product/${product_id}`,"product")}
+              onClick={() => navigate(`/product/${product_id}`)}
             >
               View Details
             </button>

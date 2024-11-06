@@ -13,11 +13,15 @@ const CardDetails = () => {
   const [cardDetails, setCardDetails] = useState({});
   const [isFavorite, setIsFavorite] = useState(false);
   useEffect(() => {
-    const card = [...data].find((item) => parseInt(item.product_id) === cardId);
+    const card = [...data]?.find(
+      (item) => parseInt(item?.product_id) === cardId
+    );
     setCardDetails(card);
-    const isExist = getAllWishLists().find(item => item.product_id == card.product_id)
+    const isExist = getAllWishLists().find(
+      (item) => item?.product_id == card?.product_id
+    );
     if (isExist) {
-      setIsFavorite(true)
+      setIsFavorite(true);
     }
   }, [cardId, data]);
 
@@ -32,13 +36,12 @@ const CardDetails = () => {
   } = cardDetails;
 
   const handleAddToCart = (product) => {
-    addToCart(product)
-    // console.log(  );
+    addToCart(product);
   };
   const handleAddToWishlist = (product) => {
-    addToWishList(product)
+    addToWishList(product);
     setIsFavorite(true);
-  }
+  };
   return (
     <>
       <div className="bg-primary text-white pt-12 space-y-7 min-h-96 lg:max-h-80 pb-10">
@@ -73,7 +76,7 @@ const CardDetails = () => {
               <h3 className=" mt-3 font-bold text-lg ">Specification</h3>
               <ol className=" list-decimal list-inside">
                 {specification &&
-                  specification.map((item, index) => (
+                  specification?.map((item, index) => (
                     <li key={index} className="text-gray-600  text-lg">
                       {item}
                     </li>
@@ -92,14 +95,23 @@ const CardDetails = () => {
                     activeColor="orange"
                   />
                 </span>
-                <span className=" ml-4 p-2 bg-stone-100 rounded-xl">{rating}</span>
+                <span className=" ml-4 p-2 bg-stone-100 rounded-xl">
+                  {rating}
+                </span>
               </div>
 
               <div className=" flex items-center gap-2">
-                <button onClick={()=>handleAddToCart(cardDetails)} className="btn bg-primary text-white rounded-full hover:text-black">
+                <button
+                  onClick={() => handleAddToCart(cardDetails)}
+                  className="btn bg-primary text-white rounded-full hover:text-black"
+                >
                   <span>Add to Cart</span> <MdOutlineShoppingCart size={19} />
                 </button>
-                <button disabled={isFavorite} onClick={()=>handleAddToWishlist(cardDetails)} className="btn btn-circle">
+                <button
+                  disabled={isFavorite}
+                  onClick={() => handleAddToWishlist(cardDetails)}
+                  className="btn btn-circle"
+                >
                   <FaRegHeart size={22} />
                 </button>
               </div>

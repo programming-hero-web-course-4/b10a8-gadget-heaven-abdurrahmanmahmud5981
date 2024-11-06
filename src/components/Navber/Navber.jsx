@@ -6,12 +6,12 @@ import logo from "../../assets/favicon-16x16.png";
 const Navber = () => {
   const [showCartsNumbers, setShowCartsNumbers] = useState();
   const [showWishListNumbers, setshowWishListNumbers] = useState();
-  // const showCartsNumbers =
+
   useEffect(() => {
     setShowCartsNumbers(getAllCarts().length);
     setshowWishListNumbers(getAllWishLists().length);
   }, []);
-  console.log(showCartsNumbers);
+
   return (
     <div className="navbar gap-3 max-w-screen-xl mx-auto">
       <div className="navbar-start gap-3 w-full sm:w-1/2">

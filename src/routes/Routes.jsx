@@ -9,75 +9,72 @@ import ErrorPage from "../pages/ErrorPage";
 import FeaturedItem from "../pages/FeaturedItem";
 
 const routes = createBrowserRouter([
-    {
+  {
+    path: "/",
+    errorElement: <ErrorPage />,
+    element: <MainLayout />,
+    children: [
+      {
         path: "/",
-        errorElement:<ErrorPage/>,
-        element: <MainLayout/>,
+        element: <Home />,
+        loader: () => fetch("/categories.json"),
         children: [
-            // Add your routes here
-            {
-                path: "/",
-                element:<Home/>,
-                loader: ()=> fetch("/categories.json"),
-                children:[
-                    {
-                        path: "/",
-                        element:<GadgetCard/>,
-                        loader: ()=> fetch("/products.json")
-                    },
-                    {
-                        path:"/category/:category",
-                        element:<GadgetCard/>,
-                        loader: ()=> fetch("/products.json")
-                    },
-                    {
-                        path:"/category/:category",
-                        element:<GadgetCard/>,
-                        loader: ()=> fetch("/products.json")
-                    },
-                    {
-                        path:"/category/:category",
-                        element:<GadgetCard/>,
-                        loader: ()=> fetch("/products.json")
-                    },
-                    {
-                        path: "/category/:category",
-                        element:<GadgetCard/>,
-                        loader: ()=> fetch("/products.json")
-                    },
-                    {
-                        path: "/category/:category",
-                        element:<GadgetCard/>,
-                        loader: ()=> fetch("/products.json")
-                    },
-                    {
-                        path: "/category/:category",
-                        element:<GadgetCard/>,
-                        loader: ()=> fetch("/products.json")
-                    }
-                ]
-            },
-            {
-                path: "/statistics",
-                element:<Statistics/>
-            },
-            {
-                path: "/dashboard",
-                element:<Dashboard/>
-            },
-            {
-                path: "/product/:details",
-                element:<CardDetails/>,
-                loader: ()=> fetch("/products.json")
-            },
-            {
-                path: "/featuredItem",
-                element:<FeaturedItem/>
-            }
-
-        ]
-    },
-    
-])
+          {
+            path: "/",
+            element: <GadgetCard />,
+            loader: () => fetch("/products.json"),
+          },
+          {
+            path: "/category/:category",
+            element: <GadgetCard />,
+            loader: () => fetch("/products.json"),
+          },
+          {
+            path: "/category/:category",
+            element: <GadgetCard />,
+            loader: () => fetch("/products.json"),
+          },
+          {
+            path: "/category/:category",
+            element: <GadgetCard />,
+            loader: () => fetch("/products.json"),
+          },
+          {
+            path: "/category/:category",
+            element: <GadgetCard />,
+            loader: () => fetch("/products.json"),
+          },
+          {
+            path: "/category/:category",
+            element: <GadgetCard />,
+            loader: () => fetch("/products.json"),
+          },
+          {
+            path: "/category/:category",
+            element: <GadgetCard />,
+            loader: () => fetch("/products.json"),
+          },
+        ],
+      },
+      {
+        path: "/statistics",
+        element: <Statistics />,
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard />,
+      },
+      {
+        path: "/product/:details",
+        element: <CardDetails />,
+        loader: () => fetch("/products.json"),
+      },
+      {
+        path: "/featuredItem",
+        element: <FeaturedItem />,
+      },
+    ],
+  },
+]);
 
 export default routes;

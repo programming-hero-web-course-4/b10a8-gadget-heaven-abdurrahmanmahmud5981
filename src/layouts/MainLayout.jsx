@@ -1,11 +1,11 @@
-import {  Outlet, useLocation, useParams } from "react-router-dom";
+import { Outlet, useLocation, useParams } from "react-router-dom";
 import Navber from "../components/Navber/Navber";
 import Footer from "../components/Footer/Footer";
-import { Toaster } from 'react-hot-toast';
+import { Toaster } from "react-hot-toast";
 
 const MainLayout = () => {
   const location = useLocation();
-  const params = useParams()
+  const params = useParams();
 
   return (
     <>
@@ -36,12 +36,16 @@ const MainLayout = () => {
           <Outlet />
         </main>
         {/* Footer */}
-        <div className={`${Object.prototype.hasOwnProperty.call(params, "details") && "lg:mt-[420px]"}`}>
-        
-        <Footer />
+        <div
+          className={`${
+            Object?.prototype?.hasOwnProperty?.call(params, "details") &&
+            "lg:mt-[420px]"
+          }`}
+        >
+          <Footer />
         </div>
       </div>
-      <Toaster/>
+      <Toaster />
     </>
   );
 };

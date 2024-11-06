@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link, useLoaderData } from "react-router-dom";
 import Heading from "../components/Heading/Heading";
 import bannerImage from "../assets/banner.jpg";
@@ -13,11 +14,11 @@ const Home = () => {
 
   return (
     <>
-    <Helmet>
-                <meta charSet="utf-8" />
-                <title>Home | Gadget Heaven</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Home | Gadget Heaven</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <header
         className=" bg-primary text-secondary m-3 mx-auto
             max-w-screen-2xl w-11/12 rounded-[32px]  sm:pb-64 flex flex-col justify-center items-center gap-8 p-3 relative md:mb-80 mb-0"

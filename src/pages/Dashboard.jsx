@@ -18,9 +18,8 @@ const Dashboard = () => {
   const [products, setProducts] = useState(getAllCarts() || []);
   const [Wishlist, setWishlist] = useState(getAllWishLists() || []);
   const modalRef = useRef(null);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const [price, setPrice] = useState(0);
-  console.log(Wishlist);
   useEffect(() => {
     getAllWishLists;
     setProducts(getAllCarts());
@@ -48,7 +47,6 @@ const Dashboard = () => {
   };
   const handlePurchase = () => {
     modalRef.current.showModal();
-    // alert("Purchase Successful");
     setPrice(
       getAllCarts().reduce((acc, curr) => acc + parseInt(curr.price), 0)
     );
@@ -57,11 +55,11 @@ const Dashboard = () => {
   };
   return (
     <div className="mb-24">
-       <Helmet>
-                <meta charSet="utf-8" />
-                <title>Dashbord | Gadget Heaven</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Dashbord | Gadget Heaven</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <div className="bg-primary text-white py-10 ">
         <SubHeading
           title="Dashboard"
@@ -137,8 +135,8 @@ const Dashboard = () => {
                 />
               ))}
         </div>
-        {/* Open the modal using document.getElementById('ID').showModal() method */}
 
+        {/* Modal  */}
         <dialog
           ref={modalRef}
           id="my_modal_5"
@@ -160,7 +158,7 @@ const Dashboard = () => {
                     )
                   );
                   modalRef.current.close();
-                  navigate("/")
+                  navigate("/");
                 }}
               >
                 Close

@@ -10,7 +10,6 @@ const getAllWishLists = () => {
 }
 // add a carts to local storage
 const addToCart = product => {
-  console.log(product);
   const carts = getAllCarts();
   const isE = carts.find(item => item.product_id === product.product_id)
   if (isE) return toast.error(`${product.product_title} is already available`);
@@ -20,7 +19,6 @@ const addToCart = product => {
 }
 
 const addToWishList = product => {
-  console.log(product);
   const wishlists = getAllWishLists();
   const isE = wishlists.find(item => item.product_id === product.product_id)
   if (isE) return;

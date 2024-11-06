@@ -6,7 +6,7 @@ const Categories = () => {
   const categories = useContext(DataContext);
 
   return (
-    <div className="flex xl:flex-col gap-3 flex-wrap   l   justify-between sm:justify-center bg-white py-4 px-4 border rounded-2xl">
+    <div className="flex xl:flex-col gap-3 flex-wrap justify-between sm:justify-center bg-white py-4 px-4 border rounded-2xl">
       <NavLink
         to="/"
         className={({ isActive }) => {
@@ -20,9 +20,9 @@ const Categories = () => {
         All Products
       </NavLink>
       <div className="flex xl:flex-col gap-3 flex-wrap sm:justify-center">
-        {categories.map((category) => (
+        {categories?.map((category) => (
           <NavLink
-            to={`/category/${category.name.toLowerCase()}`}
+            to={`/category/${category?.name?.toLowerCase()}`}
             key={category.id}
             className={({ isActive }) => {
               return `btn xl:w-full rounded-full block text-start px-5 py-4  ${
@@ -32,7 +32,7 @@ const Categories = () => {
               }`;
             }}
           >
-            {category.name}
+            {category?.name}
           </NavLink>
         ))}
       </div>
