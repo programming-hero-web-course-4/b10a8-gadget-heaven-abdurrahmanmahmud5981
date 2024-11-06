@@ -12,6 +12,8 @@ const getAllWishLists = () => {
 const addToCart = product => {
   console.log(product);
   const carts = getAllCarts();
+  const isE = carts.find(item => item.product_id === product.product_id)
+  if (isE) return toast.error(`${product.product_title} is already available`);
   carts.push(product)
   localStorage.setItem('carts', JSON.stringify(carts))
   toast.success(`${product.product_title} added to cart`);

@@ -31,7 +31,7 @@ const MainLayout = () => {
           <Outlet />
         </main>
         {/* Footer */}
-        <div className={`${Object.prototype.hasOwnProperty.call(params, "details") && "lg:mt-[50vh]"}`}>
+        <div className={`${Object.prototype.hasOwnProperty.call(params, "details") && "lg:mt-[420px]"}`}>
         
         <Footer />
         </div>

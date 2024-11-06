@@ -5,6 +5,7 @@ import Navber from "../components/Navber/Navber";
 import Gadgets from "../components/Gadgets/Gadgets";
 import { DataContext } from "../context/Context";
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const data = useLoaderData();
@@ -12,6 +13,11 @@ const Home = () => {
 
   return (
     <>
+    <Helmet>
+                <meta charSet="utf-8" />
+                <title>Home | Gadget Heaven</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
       <header
         className=" bg-primary text-secondary m-3 mx-auto
             max-w-screen-2xl w-11/12 rounded-[32px]  sm:pb-64 flex flex-col justify-center items-center gap-8 p-3 relative md:mb-80 mb-0"

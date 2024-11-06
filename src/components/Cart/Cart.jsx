@@ -18,7 +18,7 @@ const Cart = ({
       };
   return (
     <div className="mb-7">
-      <div className="card card-side bg-base-100 shadow-xl ">
+      <div className="card sm:card-side bg-base-100 shadow-xl relative ">
         <figure className="h-full  p-6 pr-0">
           <img
             className="h-[140px] rounded w-[130px] object-cover"
@@ -41,7 +41,7 @@ const Cart = ({
         </div>
         <span
           onClick={() => isActive ? handleWishlistDelete(product_id):handleDelete(product_id) }
-          className="text-red-600 m-16 cursor-pointer"
+          className="text-red-600 sm:m-16 cursor-pointer absolute sm:block right-0 m-2"
         >
           <CiCircleRemove size={50} />
         </span>

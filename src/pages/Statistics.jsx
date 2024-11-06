@@ -1,9 +1,15 @@
+import { Helmet } from "react-helmet"
 import SubHeading from "../components/SubHeading/SubHeading"
 
 
 const Statistics = () => {
   return (
     <div>
+       <Helmet>
+                <meta charSet="utf-8" />
+                <title>Statistics | Gadget Heaven</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
       <div className="bg-primary text-white py-10">
         <SubHeading
           title="Statistics"

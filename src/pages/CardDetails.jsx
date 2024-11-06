@@ -47,15 +47,15 @@ const CardDetails = () => {
           subTitle="Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!"
         />
         <div className="text-black w-11/12 mx-auto max-w-screen-xl flex justify-center  ">
-          <div className="    w-full   card lg:card-side bg-base-100 shadow-xl lg:max-h-[560px] ">
-            <figure className=" p-4 sm:p-8 lg:pr-0 w-full lg:max-h-fit  lg:flex-1 lg:flex-shrink-0 sm:h-[700px] lg:h-auto">
+          <div className=" w-full   card lg:card-side bg-base-100 shadow-xl lg:max-h-[560px] ">
+            <figure className=" p-4 sm:p-8 lg:pr-0 w-full lg:max-h-fit  lg:flex-1 lg:flex-shrink-0 sm:h-[700px] lg:h-auto ">
               <img
                 src={product_image}
                 alt={product_title}
                 className=" w-full h-full   object-cover rounded-3xl"
               />
             </figure>
-            <div className="card-body  h-fit   ">
+            <div className="card-body  h-fit lg:flex-1  ">
               <h2 className="card-title text-3xl">{product_title}</h2>
               <h5 className=" text-xl font-semibold text-gray-700">
                 Price: ${price}

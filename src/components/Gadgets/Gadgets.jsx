@@ -10,7 +10,7 @@ const Gadgets = () => {
         <Heading title="Explore Cutting-Edge Gadgets" subTitle="" />
         <div className="grid grid-cols-12 gap-4 mt-12">
           {/* Add your gadget cards here */}
-          <div className="col-span-full xl:col-span-2 ">
+          <div className="col-span-full xl:col-span-2 mb-16">
             <Categories/>
           </div>
           <div className=" col-span-full xl:col-span-10  ">

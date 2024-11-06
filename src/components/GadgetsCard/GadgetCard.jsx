@@ -21,7 +21,7 @@ const GadgetCard = () => {
         const filteredData = [...data].filter(data=>`${data.category.toLowerCase()}`=== `${category}` )
         setGadgets(filteredData);
       }else{
-        setGadgets([...data].slice(0,6))
+        setGadgets([...data].slice(0,15))
       }
     },[category,data])
 
@@ -29,7 +29,7 @@ const GadgetCard = () => {
     // console.log(gadgets);
 
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-20">
        {
        
        gadgets.length >0 ? gadgets.map((product) => (

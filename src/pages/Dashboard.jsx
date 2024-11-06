@@ -11,6 +11,7 @@ import Cart from "../components/Cart/Cart";
 import { BsSortNumericDownAlt } from "react-icons/bs";
 import modalIcon from "../assets/Group.png";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Dashboard = () => {
   const [isActive, setIsActive] = useState(false);
@@ -55,8 +56,13 @@ const Dashboard = () => {
     setProducts(getAllCarts());
   };
   return (
-    <div>
-      <div className="bg-primary text-white py-10">
+    <div className="mb-24">
+       <Helmet>
+                <meta charSet="utf-8" />
+                <title>Dashbord | Gadget Heaven</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
+      <div className="bg-primary text-white py-10 ">
         <SubHeading
           title="Dashboard"
           subTitle="Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!"

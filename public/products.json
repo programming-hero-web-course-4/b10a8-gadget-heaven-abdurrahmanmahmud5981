@@ -167,5 +167,318 @@
     "availability": false,
     "rating": 4.2,
     "slug": "apple-watch"
+  },
+  {
+    "product_id": "11",
+    "product_title": "HP Pavilion",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H905e7412afc54c47b18deb14a348dffbV.png_720x720q50.jpg",
+    "category": "Laptops",
+    "price": 850,
+    "description": "Reliable and affordable laptop.",
+    "specification": [
+      "15.6-inch display",
+      "Intel Core i5",
+      "8GB RAM",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.3,
+    "slug": "hp-pavilion"
+  },
+  {
+    "product_id": "12",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H0b61e11ffdf94d149b9e6f1a46a56632j.jpg_720x720q50.jpg",
+    "category": "Laptops",
+    "price": 1250,
+    "description": "Ultra-thin, high-performance laptop.",
+    "specification": [
+      "13.3-inch display",
+      "Intel Core i7",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "slug": "dell-xps-13"
+  },
+  {
+    "product_id": "13",
+    "product_title": "Acer Aspire",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H866eaf75ba92407790cc5f1a10f8c1c9I.jpg_720x720q50.jpg",
+    "category": "Laptops",
+    "price": 550,
+    "description": "Budget-friendly laptop with essential features.",
+    "specification": [
+      "14-inch display",
+      "Intel Core i3",
+      "4GB RAM",
+      "256GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.1,
+    "slug": "acer-aspire"
+  },
+  {
+    "product_id": "14",
+    "product_title": "Samsung Galaxy Book",
+    "product_image": "https://s.alicdn.com/@sc04/kf/A99f0afc289774c7597a988b3580ab68dG.jpeg_720x720q50.jpg",
+    "category": "Laptops",
+    "price": 950,
+    "description": "High-resolution display with extended battery life.",
+    "specification": [
+      "15.6-inch display",
+      "Intel Core i5",
+      "8GB RAM",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "slug": "samsung-galaxy-book"
+  },
+  {
+    "product_id": "15",
+    "product_title": "Microsoft Surface Pro",
+    "product_image": "https://s.alicdn.com/@sc04/kf/H03db6b76239f4ea6859a7b449752cc6eC.png_720x720q50.jpg",
+    "category": "Tablets",
+    "price": 1100,
+    "description": "Tablet with powerful performance.",
+    "specification": [
+      "12.3-inch display",
+      "Intel Core i5",
+      "8GB RAM",
+      "256GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "slug": "surface-pro"
+  },
+
+  {
+    "product_id": "16",
+    "product_title": "Lenovo ThinkPad",
+    "product_image": "https://sc04.alicdn.com/kf/Hba8bfb9c18414d739e8b38c1f2f22cddC.jpg",
+    "category": "Laptops",
+    "price": 1100,
+    "description": "A laptop built for productivity and durability.",
+    "specification": [
+      "14-inch display",
+      "Intel Core i7",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "slug": "lenovo-thinkpad"
+  },
+  {
+    "product_id": "17",
+    "product_title": "ASUS ZenBook",
+    "product_image": "https://sc04.alicdn.com/kf/H9d4048b6a0fa4b27ae12f0ff3be44a93c.jpg",
+    "category": "Laptops",
+    "price": 1250,
+    "description": "Lightweight and powerful laptop.",
+    "specification": [
+      "13-inch display",
+      "Intel Core i7",
+      "16GB RAM",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "slug": "asus-zenbook"
+  },
+  {
+    "product_id": "18",
+    "product_title": "Dell Inspiron",
+    "product_image": "https://sc04.alicdn.com/kf/H87ef2333ff36402b91b134afc1e7e32eY.jpg",
+    "category": "Laptops",
+    "price": 700,
+    "description": "Affordable laptop for everyday tasks.",
+    "specification": [
+      "15.6-inch display",
+      "Intel Core i5",
+      "8GB RAM",
+      "256GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.3,
+    "slug": "dell-inspiron"
+  },
+  {
+    "product_id": "19",
+    "product_title": "Huawei MateBook",
+    "product_image": "https://sc04.alicdn.com/kf/Hc8f8d0e053f44436a8f8e41b96b5e3f4A.jpg",
+    "category": "Laptops",
+    "price": 950,
+    "description": "Sleek laptop with excellent performance.",
+    "specification": [
+      "14-inch display",
+      "Intel Core i5",
+      "8GB RAM",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "slug": "huawei-matebook"
+  },
+  {
+    "product_id": "20",
+    "product_title": "Sony Xperia 1",
+    "product_image": "https://sc04.alicdn.com/kf/H8df7cb5b353f43a89a3d2f632307beedx.jpg",
+    "category": "Phones",
+    "price": 950,
+    "description": "Smartphone with 4K display and great camera.",
+    "specification": [
+      "6.5-inch display",
+      "Snapdragon 865",
+      "8GB RAM",
+      "128GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "slug": "sony-xperia-1"
+  },
+  {
+    "product_id": "21",
+    "product_title": "OnePlus 8T",
+    "product_image": "https://sc04.alicdn.com/kf/H354c93fa12a84e80bcd4bfc7a3c9c4f1T.jpg",
+    "category": "Phones",
+    "price": 750,
+    "description": "High-speed 5G smartphone.",
+    "specification": [
+      "6.55-inch display",
+      "Snapdragon 865",
+      "8GB RAM",
+      "128GB storage"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "slug": "oneplus-8t"
+  },
+  {
+    "product_id": "22",
+    "product_title": "Samsung Galaxy Buds",
+    "product_image": "https://sc04.alicdn.com/kf/Hbcd4309b2f134c01af1067a145248030Z.jpg",
+    "category": "Accessories",
+    "price": 120,
+    "description": "Wireless earbuds with great sound quality.",
+    "specification": ["Bluetooth", "Noise cancellation", "6-hour battery life"],
+    "availability": true,
+    "rating": 4.5,
+    "slug": "galaxy-buds"
+  },
+  {
+    "product_id": "23",
+    "product_title": "JBL Flip 5",
+    "product_image": "https://sc04.alicdn.com/kf/Hb7d6e80d6fae4010b2e8b48282fe60d3v.jpg",
+    "category": "Accessories",
+    "price": 100,
+    "description": "Portable Bluetooth speaker.",
+    "specification": ["Bluetooth", "Water-resistant", "12-hour battery life"],
+    "availability": true,
+    "rating": 4.7,
+    "slug": "jbl-flip-5"
+  },
+  {
+    "product_id": "24",
+    "product_title": "Beats Solo3",
+    "product_image": "https://sc04.alicdn.com/kf/Hf3a8e095632f4f2eaddfa2cbbc2f4d60b.jpg",
+    "category": "Accessories",
+    "price": 180,
+    "description": "On-ear headphones with excellent sound.",
+    "specification": [
+      "Bluetooth",
+      "Noise cancellation",
+      "40-hour battery life"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "slug": "beats-solo3"
+  },
+  {
+    "product_id": "25",
+    "product_title": "Fitbit Versa 3",
+    "product_image": "https://sc04.alicdn.com/kf/Habc5d3ad1e8e406bb81321290aaf8e05i.jpg",
+    "category": "Smart_Watches",
+    "price": 200,
+    "description": "Smartwatch with health tracking features.",
+    "specification": [
+      "1.5-inch display",
+      "Heart rate monitor",
+      "GPS",
+      "Bluetooth"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "slug": "fitbit-versa-3"
+  },
+  {
+    "product_id": "26",
+    "product_title": "Huawei Watch GT 2",
+    "product_image": "https://sc04.alicdn.com/kf/Hb73272a6463f44d382f02c0ae0b33369k.jpg",
+    "category": "Smart_Watches",
+    "price": 230,
+    "description": "Elegant smartwatch with long battery life.",
+    "specification": [
+      "1.39-inch display",
+      "Heart rate monitor",
+      "GPS",
+      "Bluetooth"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "slug": "huawei-watch-gt-2"
+  },
+  {
+    "product_id": "27",
+    "product_title": "Garmin Forerunner 245",
+    "product_image": "https://sc04.alicdn.com/kf/H555129e5de4b4bb0931593459aeed7f2f.jpg",
+    "category": "Smart_Watches",
+    "price": 250,
+    "description": "GPS smartwatch for runners.",
+    "specification": [
+      "1.2-inch display",
+      "Heart rate monitor",
+      "GPS",
+      "Bluetooth"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "slug": "garmin-forerunner-245"
+  },
+  {
+    "product_id": "28",
+    "product_title": "TicWatch Pro 3",
+    "product_image": "https://sc04.alicdn.com/kf/Hb5c63a3f4b2c43ddace961a7304b73f4k.jpg",
+    "category": "Smart_Watches",
+    "price": 300,
+    "description": "Smartwatch with dual-layer display.",
+    "specification": [
+      "1.4-inch display",
+      "Heart rate monitor",
+      "GPS",
+      "Bluetooth"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "slug": "ticwatch-pro-3"
+  },
+  {
+    "product_id": "29",
+    "product_title": "Oppo Watch",
+    "product_image": "https://sc04.alicdn.com/kf/H1b52b40b60df43229b01d5e90d6fc7cc7.jpg",
+    "category": "Smart_Watches",
+    "price": 280,
+    "description": "Smartwatch with sleek design and fast performance.",
+    "specification": [
+      "1.91-inch display",
+      "Heart rate monitor",
+      "GPS",
+      "Bluetooth"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "slug": "oppo-watch"
   }
 ]
