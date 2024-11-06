@@ -5,6 +5,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 import { FaRegHeart, FaStar } from "react-icons/fa";
 import ReactStars from "react-rating-stars-component";
 import { addToCart, addToWishList, getAllWishLists } from "../utils/utils";
+import { Helmet } from "react-helmet";
 
 const CardDetails = () => {
   const data = useLoaderData();
@@ -45,6 +46,10 @@ const CardDetails = () => {
   return (
     <>
       <div className="bg-primary text-white pt-12 space-y-7 min-h-96 lg:max-h-80 pb-10">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Card Details | Gadget Heaven</title>
+        </Helmet>
         <SubHeading
           title="Product Details"
           subTitle="Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!"
